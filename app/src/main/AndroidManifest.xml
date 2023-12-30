@@ -13,21 +13,28 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
-            android:name=".tuan1.Tuan11MainActivity"
+            android:name=".tuan2.Tuan22MainActivity"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
         <activity
-            android:name=".MainActivity"
+            android:name=".tuan2.Tuan21SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan2.Tuan21MainActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".tuan1.Tuan11MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
