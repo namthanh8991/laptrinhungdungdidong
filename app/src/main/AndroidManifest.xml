@@ -13,7 +13,11 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream
             android:name=".tuan1.Tuan11MainActivity"
+=======
+            android:name=".tuan3.Tuan32MainActivity"
+>>>>>>> Stashed changes
             android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -24,7 +28,17 @@
         </activity>
 
         <activity
+<<<<<<< Updated upstream
             android:name=".MainActivity"
+=======
+            android:name=".tuan2.Tuan22MainActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".tuan2.Tuan21SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan2.Tuan21MainActivity"
+>>>>>>> Stashed changes
             android:exported="true">
 
         </activity>
